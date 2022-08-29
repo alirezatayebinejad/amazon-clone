@@ -1,0 +1,32 @@
+.payment {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.payment-title {
+	padding: 20px;
+}
+
+.payment-container {
+	background-color: white;
+	max-width: 1300px;
+	padding: 40px;
+}
+.payment-container .payment-divs {
+	display: flex;
+	padding: 20px 0;
+}
+.payment-container .payment-divs h3 {
+	flex: 0.2;
+}
+.payment-container .payment-divs .payment-infos {
+	flex: 0.8;
+}
+
+.payment-methods {
+	border-top: solid 1px rgb(177, 177, 177);
+}
+.payment-items h3 {
+	padding-top: 20px;
+	border-top: solid 1px rgb(177, 177, 177);
+}

@@ -1,0 +1,72 @@
+.sign-in-container {
+	width: 400px;
+	background-color: white;
+	padding: 10px 30px;
+	border: solid 1px rgb(201, 201, 201);
+	display: flex;
+	flex-direction: column;
+}
+.sign-in-logo {
+	width: 150px;
+	margin-bottom: 30px;
+}
+
+.sign-in-container h1 {
+	color: rgb(53, 53, 53);
+	padding-bottom: 20px;
+}
+.sign-in-container label {
+	font-weight: bold;
+	color: rgb(53, 53, 53);
+	padding: 8px 0;
+}
+.sign-in-container input {
+	height: 40px;
+	outline-color: #f0c14b;
+	border: solid 1px rgb(185, 185, 185);
+}
+.sign-in-container button {
+	padding: 10px;
+	margin-top: 15px;
+	background-color: #f0c14b;
+	border: solid 1px #8d6910;
+	cursor: pointer;
+}
+.sign-in-agreement {
+	font-size: 13px;
+	margin: 20px 0;
+}
+
+.sign-in-divider {
+	display: flex;
+	align-items: center;
+	--text-divider-gap: 1rem;
+	/* set a customizable gap between label and lines*/
+}
+
+.sign-in-divider::before,
+.sign-in-divider::after {
+	content: "";
+	height: 1px;
+	background-color: silver;
+	flex-grow: 1;
+}
+
+.sign-in-divider::before {
+	margin-right: var(--text-divider-gap);
+}
+
+.sign-in-divider::after {
+	margin-left: var(--text-divider-gap);
+}
+.sign-in-back-home {
+	text-align: center;
+	margin-top: 10px;
+}
+.sign-in-back-home a {
+	text-decoration: none;
+	color: #8d6910;
+}
+.sign-in-back-home a:hover {
+	color: #4b3d1b;
+}

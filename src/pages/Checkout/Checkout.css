@@ -1,0 +1,47 @@
+.checkout {
+	display: flex;
+	margin: 20px;
+}
+.checkout-left {
+	width: 70%;
+}
+.checkout-banner {
+	width: 100%;
+}
+.checkout-list {
+	background-color: white;
+	margin: 15px 0;
+	padding: 30px;
+}
+.checkout-list h2 {
+	margin-bottom: 20px;
+}
+
+.checkout-right {
+	padding: 0 0 0 35px;
+	width: 30%;
+}
+.checkout-subtotal {
+	background-color: white;
+	padding: 30px;
+	min-height: 180px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.checkout-subtotal-price {
+	font-weight: bold;
+}
+.checkout-subtotal button {
+	padding: 8px;
+	border: solid 1px;
+	border-color: #a88734 #9c7e31 #846a29;
+	background: #f0c14b;
+	cursor: pointer;
+}
+.checkout-ad {
+	margin-top: 20px;
+}
+.checkout-ad img {
+	width: 100%;
+}

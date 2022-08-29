@@ -37,7 +37,9 @@ function Checkout() {
 						<input type="checkbox" id="order-gift" />
 						<label htmlFor="order-gift">This order contains a gift</label>
 					</div>
-					<button onClick={(e) => navigate("/payment")}>Proceed to Checkout</button>
+					<button disabled={!basketItems.length} onClick={() => navigate("/payment")}>
+						Proceed to Checkout
+					</button>
 				</div>
 				<div className="checkout-ad">
 					<img src="../../images/checkoutBanner2.jpg" alt="" />

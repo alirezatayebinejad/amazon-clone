@@ -16,7 +16,7 @@ export function BasketProvider({ children }) {
 			return [...prevState, { id: Id, name: Name, price: Price, imgSrc: ImgSrc, rating: Rating }];
 		});
 	};
-	const removeFromBasket = (d, Id) => {
+	const removeFromBasket = (Id) => {
 		setBasketItems(() => {
 			let index = basketItems?.findIndex((item) => item.id === Id);
 			let newItems = [...basketItems];

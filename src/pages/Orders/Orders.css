@@ -1,0 +1,15 @@
+.orders {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 50vh;
+}
+.orders-container {
+	background-color: #febd69;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}

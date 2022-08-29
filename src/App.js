@@ -6,6 +6,8 @@ import Checkout from "./pages/Checkout/Checkout";
 import { BasketProvider } from "./contexts/basketContext";
 import SignIn from "./pages/SignIn/SignIn";
 import Payment from "./pages/Payment/Payment";
+import Orders from "./pages/Orders/Orders";
+import Footer from "./components/Footer/Footer";
 
 function App() {
 	return (
@@ -19,6 +21,7 @@ function App() {
 								<>
 									<Header />
 									<Home />
+									<Footer />
 								</>
 							}
 						></Route>
@@ -28,6 +31,7 @@ function App() {
 								<>
 									<Header />
 									<Checkout />
+									<Footer />
 								</>
 							}
 						></Route>
@@ -45,6 +49,17 @@ function App() {
 								<>
 									<Header />
 									<Payment />
+									<Footer />
+								</>
+							}
+						></Route>
+						<Route
+							path="/orders"
+							element={
+								<>
+									<Header />
+									<Orders />
+									<Footer />
 								</>
 							}
 						></Route>

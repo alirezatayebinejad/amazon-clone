@@ -1,7 +1,7 @@
 .header {
 	z-index: 99;
 	background-color: #192330;
-	height: 60px;
+	min-height: 60px;
 	position: sticky;
 	top: 0;
 }
@@ -68,4 +68,15 @@
 }
 .header-basket-count {
 	padding-left: 5px;
+}
+@media (max-width: 540px) {
+	.header-container {
+		flex-wrap: wrap;
+	}
+	.header-options {
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		padding: 20px 0 5px 0;
+	}
 }

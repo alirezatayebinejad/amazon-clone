@@ -6,14 +6,14 @@ function Home() {
 	const productInfos = [
 		{
 			id: "254544",
-			name: "Legendary storyteller Stephen King goes into the deepest well of his imagination in this spellbinding novel about a seventeen-year-old boy who inherits the keys to a parallel world where good and evil are at war, and the stakes could not be higher—for that world or ours.",
+			name: "Legendary storyteller Stephen King goes into the deepest well of his imagination",
 			price: 20.99,
 			imgSrc: "../../images/product1.jpg",
 			rating: 5,
 		},
 		{
 			id: "598562",
-			name: "SAMSUNG 15.6” Galaxy Book2 Pro Laptop Computer, i5 / 8GB / 512GB, 12th Gen Intel Core Processor, Evo Certified, Lightweight, 2022 Model, Graphite",
+			name: "SAMSUNG 15.6” Galaxy Book2 Pro Laptop Computer, i5 / 8GB / 512GB, 12th Gen Intel Core Processor",
 			price: 949.99,
 			imgSrc: "../../images/product2.jpg",
 			rating: 5,
@@ -27,14 +27,14 @@ function Home() {
 		},
 		{
 			id: "158452",
-			name: "SAMSUNG Galaxy Watch 5 44mm LTE Smartwatch w/Body, Health, Fitness and Sleep Tracker, Improved Battery, Sapphire Crystal Glass, Enhanced GPS Tracking, US Version, Blue",
+			name: "SAMSUNG Galaxy Watch 5 44mm LTE Smartwatch w/Body, Health, Fitness and Sleep Tracker, Improved Battery",
 			price: 359.0,
 			imgSrc: "../../images/product4.jpg",
 			rating: 5,
 		},
 		{
 			id: "156548",
-			name: "EDUPLINK Portable Bluetooth Speaker Waterproof IPX7 Wireless Speaker with 20W Louder Speakers Switch Between Bluetooth Pairing and Aux-in Mode by Phone Button Black",
+			name: "EDUPLINK Portable Bluetooth Speaker Waterproof IPX7 Wireless Speaker with 20W Louder Speakers",
 			price: 39.99,
 			imgSrc: "../../images/product5.jpg",
 			rating: 5,

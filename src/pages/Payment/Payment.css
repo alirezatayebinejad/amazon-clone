@@ -30,3 +30,24 @@
 	padding-top: 20px;
 	border-top: solid 1px rgb(177, 177, 177);
 }
+.paument-methods-priceContainer {
+	margin-top: 10px;
+}
+.payment-methods-button {
+	margin-top: 10px;
+	padding: 10px 30px;
+	background-color: #f0c14b;
+}
+@media (max-width: 650px) {
+	.payment-container .payment-divs {
+		display: flex;
+		padding: 20px 0;
+		flex-direction: column;
+	}
+	.payment-items h3 {
+		border-top: none;
+	}
+	.paument-methods-priceContainer {
+		margin-top: 20px;
+	}
+} ;

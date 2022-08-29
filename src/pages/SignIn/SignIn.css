@@ -5,3 +5,8 @@
 	align-items: center;
 	height: 100vh;
 }
+.sign-in-country-warning {
+	color: red;
+	padding-bottom: 20px;
+	font-size: 18px;
+}

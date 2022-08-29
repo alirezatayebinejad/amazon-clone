@@ -45,3 +45,26 @@
 .checkout-ad img {
 	width: 100%;
 }
+@media (max-width: 700px) {
+	.checkout-left {
+		width: 60%;
+	}
+	.checkout-right {
+		padding: 0 0 0 35px;
+		width: 40%;
+	}
+}
+@media (max-width: 550px) {
+	.checkout-left {
+		width: 100%;
+	}
+	.checkout-right {
+		padding: 0 0 0 0px;
+		width: 100%;
+	}
+	.checkout {
+		display: flex;
+		margin: 20px;
+		flex-direction: column;
+	}
+}
